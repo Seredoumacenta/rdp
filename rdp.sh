@@ -1,7 +1,5 @@
 # rdp
 #!usr/bin/bash
-mkdir ubuntu
-cd ubuntu
 sudo apt-get update -yy
 sudo apt-get install ca-certificates curl gnupg -yy
 sudo install -m 0755 -d /etc/apt/keyrings -yy
