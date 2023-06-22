@@ -17,4 +17,10 @@ docker image ls
 docker images
 docker network
 docker inspect bridge
+docker build
 docker run -it ubuntu
+apt-get update && apt-get install -y openssh-server
+apt-get install -y iputils-ping && apt-get install -y net-tools
+mkdir /var/run/sshd
+echo 'root:yaya' | chgpasswd
+set -i 's/#*PermitRootLogin yes/g' /etc/ssh/sshd_config
