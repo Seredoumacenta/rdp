@@ -18,5 +18,6 @@ docker images
 docker network
 docker inspect bridge
 docker build -it from file_ubuntu:v1 -f test_file_config
+docker run -it ubuntu
 
 
